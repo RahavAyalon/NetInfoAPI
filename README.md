@@ -1,11 +1,6 @@
 ### Overview ###
 
-NetInfoAPI  is a basic REST API that returns information about IP configuration of existing network interfaces in the system.
-
-While this code is OS-agnostic, it can be run easily using Docker
-- OS: Linux Ubuntu 18.04 / 20.04 (can use a docker or a cloud VM)
-- Server infrastructure is written in C# and running under .NET Core 6 + ASP.NET
-- A single GET endpoint to obtain the network interfaces configuration is enough, however the system can have multiple network interfaces and multiple IP addresses per single interface
+NetInfoAPI  is a basic C# REST API that returns information about IP configuration of existing network interfaces in a system, running under .NET Core 6 + ASP.NETsing using Docker.
 
 ### Getting Started
 
