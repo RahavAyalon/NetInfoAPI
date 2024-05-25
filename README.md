@@ -29,3 +29,5 @@ docker run -d --rm -p 5000:5000 --name networkinfocontainer networkinfoimage
 ```
 http://localhost:5000/network
 ```
+### Future Improvements
+1. Tests
